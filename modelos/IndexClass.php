@@ -10,7 +10,7 @@ Class IndexClass
 
 	}
 
-	//Implementar un método para listar los registros
+	//Implementar un método para listar los registross
 	public function listarCategorias()
 	{
 		$sql="SELECT * FROM categorias";

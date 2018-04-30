@@ -4,9 +4,7 @@ function init(){
         $('.cadaCategoria').html(r);
     });
     
-    $.post('../ajax/indexAjax.php?op=listarProductos', function(r){
-        $('.slideContainer').html(r);
-    });
+
 }
 
 //funciones de la pagina
