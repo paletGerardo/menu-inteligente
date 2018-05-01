@@ -1,38 +1,31 @@
 <!DOCTYPE html>
 <html>
-
+    
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> </head>
 
-
-    
-</head>
-<!-- alguna pelotudez-->
 <body>
-
     <div id="contenedor">
-
         <!--INICIO MENU CATEGORIAS///////////////////////////////////////////////-->
         <div id="menu">
-            <div class="cadaCategoria container">
-                
-            </div>
+            <div class="cadaCategoria container"> </div>
         </div>
         <div id="cuerpo">
-
             <div class="form_container">
+               <div class="loPedido">
+                        hsfoasdfasdf
+                </div>
                 <div class="slideContainer">
                     
                 </div>
                 <button class="left"></button>
                 <button class="right"></button>
             </div>
-
         </div>
     </div>
 </body>
