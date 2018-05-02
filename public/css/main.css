@@ -162,15 +162,19 @@ button{
 }
 .cadaSlide-descrip p{
     width: 400px !important;
-    font-size: 1.3rem
+    font-size: 1.3rem;
 }
 
 .loPedido {
-    width: 20vw;
-    height: 20vh;
-    background-color: red;
+    width: 100px;
+    height: 100px;
     z-index: 2;
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.botones{
+    padding-top: 10px;
+    font-size: 1.3rem;
 }

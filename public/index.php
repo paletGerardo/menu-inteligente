@@ -18,7 +18,7 @@
         <div id="cuerpo">
             <div class="form_container">
                <div class="loPedido">
-                        hsfoasdfasdf
+                        <img src="img/pedido.png">
                 </div>
                 <div class="slideContainer">
                     
