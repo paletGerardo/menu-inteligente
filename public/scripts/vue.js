@@ -1,3 +1,4 @@
+
 var listarProductos;
 var urlProductos = '../ajax/productos/listarProductos.php';
 

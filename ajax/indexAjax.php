@@ -34,7 +34,7 @@ switch ($_GET["op"]){
                                 <p> <strong> Descripción: </strong>' . $reg->descripcion .  '</p>
                                 <p> <strong> Graduación Alcohólica: </strong>' . $reg->graduacion . ' </p>
                             </div>
-                            <div class="botones"> <button class="btn btn-primary btn-lg">Añadir al pedido </button> <strong> Precio: </strong>' . $reg->precio . ' </div>
+                            <div class="botones"> <button class="btn btn-primary btn-lg" v-on:click="agregarItem(' . $reg->nombre .  ')">Añadir al pedido </button> <strong> Precio: </strong>' . $reg->precio . ' </div>
                         </div>
                         
                         <div class="cadaSlide-imagen"><img src="img/' . $reg->image .  '.png" alt=""> </div> 

@@ -178,3 +178,11 @@ button{
     padding-top: 10px;
     font-size: 1.3rem;
 }
+
+#app{
+    position: absolute;
+    z-index: 2001;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 50vw;
+    height: 50vh;
+}
