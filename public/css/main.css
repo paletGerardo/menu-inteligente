@@ -77,13 +77,13 @@ button{
     height: 100px;
     display: flex;
     justify-content: space-around;
+
 }
 
 .cadaCategoria img{
     width: 100px;
     height: 100px;
-    margin-right: 2rem;
-    margin-left: 2rem;
+
 }
 
 
@@ -168,10 +168,11 @@ button{
 .loPedido {
     width: 100px;
     height: 100px;
-    z-index: 2;
+    z-index: 2001;
     position: absolute;
     bottom: 0;
     right: 0;
+    background-color: yellow;
 }
 
 .botones{
@@ -179,10 +180,10 @@ button{
     font-size: 1.3rem;
 }
 
-#app{
+.lista {
+    width: 100vw;
+    height: 100vh;
     position: absolute;
-    z-index: 2001;
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 50vw;
-    height: 50vh;
+    z-index: 9999;
+    background-color: red;
 }
