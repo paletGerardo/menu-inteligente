@@ -17,15 +17,19 @@
         </div>
         <div id="cuerpo">
             <div class="form_container">
-               <div class="loPedido">
-                        <img src="img/pedido.png">
-                </div>
+                <button class="loPedido" id="mostrar">
+                    <p>tu pedido</p>
+                </button>
                 <div class="slideContainer">
                     
                 </div>
                 <button class="left"></button>
                 <button class="right"></button>
             </div>
+        </div>
+
+        <div id="lista">
+            <button id="ocultar">ocultar</button>
         </div>
     </div>
 </body>

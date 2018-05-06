@@ -7,7 +7,20 @@ function init(){
     $.post('../ajax/indexAjax.php?op=listarProductos', function(r){
         $('.slideContainer').html(r);
     });
+
+
 }
+
+
+$(document).ready(function () {
+    $('#lista').hide();
+    $("#mostrar").on("click", function () {
+        $('#lista').show("swing"); //muestro mediante id
+    });
+    $("#ocultar").on("click", function () {
+        $('#lista').hide("swing"); //oculto mediante id
+    });
+});
 
 //funciones de la pagina
 
@@ -17,6 +30,11 @@ function cargarPrdPorId(idCat){
     });
 }
 
+function cargarEnLista(id) {
+    $.post('../ajax/indexAjax.php?op=cargarEnLista', {id: id}, function (r) {
+        $('#lista').append(r);
+    });
+}
 
 // Funciones del Slider
 

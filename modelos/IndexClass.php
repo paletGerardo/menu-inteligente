@@ -31,6 +31,11 @@ Class IndexClass
         return ejecutarConsulta($sql);
     }
 
+    public function cargarEnLista($id)
+    {
+        $sql = "SELECT * FROM productos where id = $id";
+        return ejecutarConsulta($sql);
+    }
 
 }
 
