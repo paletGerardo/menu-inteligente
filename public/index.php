@@ -17,9 +17,9 @@
         </div>
         <div id="cuerpo">
             <div class="form_container">
-                <button class="loPedido" id="mostrar">
-                    <p>tu pedido</p>
-                </button>
+                <div class="loPedido" id="mostrar">
+                    <img src="img/pedido.png">
+                </div>
                 <div class="slideContainer">
                     
                 </div>
