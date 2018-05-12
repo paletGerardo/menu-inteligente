@@ -32,7 +32,7 @@ function cargarPrdPorId(idCat){
 
 function cargarEnLista(id) {
     $.post('../ajax/indexAjax.php?op=cargarEnLista', {id: id}, function (r) {
-        $('#lista').append(r);
+        $('#listaCuerpo').append(r);
     });
 }
 

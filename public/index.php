@@ -29,7 +29,12 @@
         </div>
 
         <div id="lista">
-            <button id="ocultar">ocultar</button>
+                <div id="listaCuerpo"></div>
+                <div id="listaFooter">
+                    <div id="ocultar">  <img src="img/regresar.png"></div>
+                    <div id="aceptar">  <img src="img/aceptar.png"></div>
+
+                </div>
         </div>
     </div>
 </body>

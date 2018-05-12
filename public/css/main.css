@@ -183,13 +183,61 @@ button{
 #lista {
     width: 100vw;
     height: 100vh;
-    background-color: red;
+    background-color: rgba(0,0,0, 0.6);
     z-index: 3000;
     position: absolute;
-    margin: 0 auto;
+
+
 }
 
 .card-body img {
     width: 100px;
     height: auto;
+}
+
+.listaItem{
+    width: 75vw;
+    height: 90vh;
+    background-color: rgba(181,181,181,0.4);
+    margin: 0 auto;
+    padding: auto;
+    display: block;
+
+}
+
+#ocultar {
+                        width: 120px;
+                        height: 120px;
+                        z-index: 2002;
+                        position: absolute;
+                        float: right;
+                        bottom: 0;
+                        right: 0;
+                        display: block;}
+
+#aceptar {
+    width: 120px;
+    height: 120px;
+    z-index: 2002;
+    position: absolute;
+    float: left;
+    display: block;}
+
+#listaFooter{
+    width: 100vw;
+    height: 18vh;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#listaCuerpo{
+    width: 100vw;
+    height: 82vh;
+    background-color: rgba(0,0,0,0.6);
+
+
+
+}
+
+.card {
+    font-family: Arial;
 }
