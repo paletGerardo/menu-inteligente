@@ -167,12 +167,12 @@ button{
 
 .loPedido {
     width: 100px;
-    height: 100px;
-    z-index: 2001;
+    height: 120px;
+    z-index: 2002;
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: yellow;
+    display: block;
 }
 
 .botones{
@@ -180,10 +180,74 @@ button{
     font-size: 1.3rem;
 }
 
-.lista {
+#lista {
     width: 100vw;
     height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 3000;
     position: absolute;
-    z-index: 9999;
-    background-color: red;
+
+}
+
+.card-body img {
+    width: 100px;
+    height: auto;
+}
+
+.listaItem {
+    width: 75vw;
+    height: 90vh;
+    background-color: rgba(181, 181, 181, 0.4);
+    margin: 0 auto;
+    padding: auto;
+    display: block;
+
+}
+
+#ocultar {
+    width: 120px;
+    height: 120px;
+    z-index: 2002;
+    position: absolute;
+    float: right;
+    bottom: 0;
+    right: 0;
+    display: block;
+}
+
+#aceptar {
+    width: 120px;
+    height: 120px;
+    z-index: 2002;
+    position: absolute;
+    float: left;
+    display: block;
+}
+
+#listaFooter {
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#listaCuerpo {
+    width: 100vw;
+    height: 82vh;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.card {
+    font-family: Arial;
+}
+
+.est_btn {
+    font-size: 25px !important;
+    width: 45vw !important;
+    height: 8vh !important;
+    background-color: #b5b5b5 !important;
+    color: black !important;
+    text-decoration: none !important;
+    margin-right: 15% !important;
+    margin-left: -40%;
+    text-align: left !important;
 }
