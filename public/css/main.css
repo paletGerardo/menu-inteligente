@@ -225,14 +225,13 @@ button{
 
 #listaFooter{
     width: 100vw;
-    height: 18vh;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.4);
 }
 
 #listaCuerpo{
     width: 100vw;
     height: 82vh;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.4);
 
 
 
@@ -240,4 +239,16 @@ button{
 
 .card {
     font-family: Arial;
+}
+
+.est_btn{
+    font-size: 25px !important;
+    width: 45vw !important;
+    height: 8vh !important;
+    background-color:#b5b5b5 !important;
+    color: black !important;
+    text-decoration:none !important;
+    margin-right:15% !important;
+    margin-left: -40%;
+    text-align: left !important;
 }

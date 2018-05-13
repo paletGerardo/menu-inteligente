@@ -77,7 +77,7 @@ switch ($_GET["op"]){
                           <div class="card">
                             <div class="card-header" id="heading' . $reg->id . '">
                               <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse' . $reg->id . '" aria-expanded="false" aria-controls="collapse' . $reg->id . '">
+                                <button class="btn btn-link collapsed est_btn" data-toggle="collapse" data-target="#collapse' . $reg->id . '" aria-expanded="false" aria-controls="collapse' . $reg->id . '">
                                   ' . $reg->nombre . '
                                 </button>
                               </h5>
