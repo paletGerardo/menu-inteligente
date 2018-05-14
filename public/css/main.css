@@ -178,6 +178,7 @@ button{
 .botones{
     padding-top: 10px;
     font-size: 1.3rem;
+    padding-right: 3.5rem;
 }
 
 #lista {

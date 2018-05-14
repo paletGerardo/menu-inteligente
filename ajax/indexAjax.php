@@ -28,7 +28,7 @@ switch ($_GET["op"]){
                                 <p> <strong> Descripción: </strong>' . $reg->descripcion .  '</p>
                                 <p> <strong> Graduación Alcohólica: </strong>' . $reg->graduacion . ' </p>
                             </div>
-                            <div class="botones"> <button class="btn btn-primary btn-lg" onClick="cargarEnLista(' . $reg->id . ')">Añadir al pedido </button> <strong> Precio: </strong>' . $reg->precio . ' </div>
+                            <div class="botones d-flex justify-content-between"> <button class="btn btn-primary btn-lg" onClick="cargarEnLista(' . $reg->id . ')">Añadir al pedido </button> <strong>$ ' . $reg->precio . ' </strong> </div>
                         </div>
                         
                         <div class="cadaSlide-imagen"><img src="img/' . $reg->image .  '.png" alt=""> </div> 
@@ -43,21 +43,26 @@ switch ($_GET["op"]){
         while($reg = $rspta->fetch_object()){
             echo ' 
                 <div class="slide">
+                    
                     <div class="cadaSlide">
-                    <div class="card">
-                        <div class="cadaSlide-titulo card-header">' . $reg->nombre .  ':</div>
-                        <div class="cadaSlide-descrip card-body">
-                            <p> <strong> Sabor: </strong>' . $reg->sabor . ' </p>
-                            <p> <strong> Descripción: </strong>' . $reg->descripcion .  '</p>
-                            <p> <strong> Graduación Alcohólica: </strong>' . $reg->graduacion . ' </p>
-                            <p> <strong> Precio: </strong>' . $reg->precio . ' </p>
-                        </div>
-                    </div>
+                    
+                        <div class="card">
                         
-                        <div class="cadaSlide-imagen col-6"><img src="img/' . $reg->image .  '.png" alt=""> </div>                        
+                            <div class="cadaSlide-titulo card-header">' . $reg->nombre . '</div>
+                            
+                            <div class="cadaSlide-descrip card-body">
+                                <p> <strong> Sabor: </strong>' . $reg->sabor . ' </p>
+                                <p> <strong> Descripción: </strong>' . $reg->descripcion . '</p>
+                                <p> <strong> Graduación Alcohólica: </strong>' . $reg->graduacion . ' </p>
+                            </div>
+                            <div class="botones d-flex justify-content-between"> <button class="btn btn-primary btn-lg" onClick="cargarEnLista(' . $reg->id . ')">Añadir al pedido </button> <strong>$ ' . $reg->precio . ' </strong> </div>
+                        </div>
+                        
+                        <div class="cadaSlide-imagen"><img src="img/' . $reg->image . '.png" alt=""> </div> 
+                        
                     </div>
-                </div> ';
-            //echo $reg->id . $reg->img;
+                    
+             </div> ';
         }
         break;
     case 'cargarEnLista':
