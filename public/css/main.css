@@ -248,7 +248,19 @@ button{
     background-color:#b5b5b5 !important;
     color: black !important;
     text-decoration:none !important;
-    margin-right:15% !important;
     margin-left: -40%;
     text-align: left !important;
+}
+
+.est_card{
+    font-size: 15px !important;
+    width: 45vw !important;
+    height: 15vh !important;
+    background-color:#313131 !important;
+    color: white !important;
+    text-decoration:none !important;
+    margin-left: -31%;
+    text-align: left !important;
+    margin-top:-3% !important;;
+
 }
