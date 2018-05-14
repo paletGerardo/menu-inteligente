@@ -1,13 +1,8 @@
 <?php
 require_once "../modelos/IndexClass.php";
-
 $objBDD=new IndexClass();
-
 $id= isset($_POST["id"])? limpiarCadena($_POST["id"]):"";
-
-
 switch ($_GET["op"]){
-
     case 'listarCategorias':
         $rspta=$objBDD->listarCategorias();
         while($reg = $rspta->fetch_object()){
@@ -16,7 +11,6 @@ switch ($_GET["op"]){
                 </div>';
         }
         break;
-
     case 'listarProductos':
         $rspta=$objBDD->listarProductos();
         while($reg = $rspta->fetch_object()){
@@ -44,7 +38,6 @@ switch ($_GET["op"]){
              </div> ';
         }
         break;
-
     case 'cargarPrdPorId':
         $rspta=$objBDD->cargarPrdPorId($id);
         while($reg = $rspta->fetch_object()){
@@ -68,9 +61,7 @@ switch ($_GET["op"]){
         }
         break;
     case 'cargarEnLista':
-
         $rspta = $objBDD->cargarEnLista($id);
-
         while ($reg = $rspta->fetch_object()) {
             echo '<div class="listaItem">
                         <div id="accordion">
@@ -93,9 +84,5 @@ switch ($_GET["op"]){
                     </div>';
         }
         break;
-
-
-
 }
-
 ?>
