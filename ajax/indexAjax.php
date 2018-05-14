@@ -83,7 +83,7 @@ switch ($_GET["op"]){
                               </h5>
                             </div>
                             <div id="collapse' . $reg->id . '" class="collapse" aria-labelledby="heading' . $reg->id . '" data-parent="#accordion">
-                              <div class="card-body d-flex">
+                              <div class="card-body d-flex est_card">
                                  <div class="col-8">' . $reg->descripcion . '</div><div class="col-4"><img src="img/' . $reg->image . '.png"></div>
                               </div>
                             </div>
