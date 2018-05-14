@@ -16,6 +16,13 @@ var app = new Vue({ // creo la variable
     data: {
         listadeProductos: [], //creo array para recibir los elementos de la request
         listaDeCategorias: [],
+        listaDePedidos: [
+            {nombre: 'gold', precio: 95},
+            {nombre: 'otra', precio: 95},
+            {nombre: 'otraMas', precio: 95},
+        ],
+        mostrarLista: false,
+        item: '',
     },
 
     methods: { // creo el metodo encardo de la request
@@ -31,10 +38,14 @@ var app = new Vue({ // creo la variable
             })
         },
 
-        mostrarLista: function () {
-            this.mostrar = true;
-            console.log("true");
-        }
+        agregarALaLista: function (nombre) {
+            this.item = nombre;
+            this.listaDePedidos.push({
+                nombre: this.item,
+                precio: 10,
+            });
+        },
+
 
     }
 

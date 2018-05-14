@@ -18,8 +18,8 @@
     <div id="menu">
         <div class="cadaCategoria container">
             <template v-for="cat of listaDeCategorias">
-                <div class="item" v-on:click="cargarPrdPorId(cat.id)">
-                    <img v-bind:src="'img/categorias/' + cat.image + '.png'" alt="">
+                <div class="item" @:click="cargarPrdPorId(cat.id)">
+                    <img :src="'img/categorias/' + cat.image + '.png'" alt="">
                 </div>
             </template>
 
@@ -39,12 +39,14 @@
                                 <p><strong> Precio: </strong>{{prd.precio}}</p>
                             </div>
                             <div class="botones">
-                                <button class="btn btn-primary btn-lg">Añadir al pedido</button>
-                                <strong> Precio: </strong> $ {{prd.precio}}
+                                <button class="btn btn-primary btn-lg" @click="agregarALaLista(prd.nombre)">Añadir al
+                                    pedido
+                                </button>
+                                <strong> $ {{prd.precio}} </strong>
                             </div>
                         </div>
                         <!-- <div class="cadaSlide-imagen col-6"><img v-bind:src="{{prd.image}}" alt=""> </div>-->
-                        <div class="cadaSlide-imagen col-6"><img v-bind:src="'img/' + prd.image + '.png'" alt=""></div>
+                        <div class="cadaSlide-imagen col-6"><img :src="'img/' + prd.image + '.png'" alt=""></div>
                     </div>
                 </div>
                 <button class="left"></button>
@@ -55,17 +57,24 @@
         </div>
     </div>
     <div class="loPedido">
-        <img src="img/spin.svg" style="width: 100px; height: 100px;">
+        <button type="button" v-on:click="mostrarLista = !mostrarLista">mostrar</button>
     </div>
+    <transition name="fade">
+        <div id="lista" v-show="mostrarLista">
+            <div id="listaCuerpo">
+                <template v-for="item in listaDePedidos">
+                    {{item.nombre}}
+                    {{item.precio}}
+                </template>
 
-    <div id="lista">
-        <div id="listaCuerpo"></div>
-        <div id="listaFooter">
-            <div id="ocultar"><img src="img/regresar.png"></div>
-            <div id="aceptar"><img src="img/aceptar.png"></div>
+            </div>
+            <div id="listaFooter">
+                <div id="ocultar"><img src="img/regresar.png"></div>
+                <div id="aceptar"><img src="img/aceptar.png"></div>
 
+            </div>
         </div>
-    </div>
+    </transition>
 </div>
 </body>
 <!-- production version, optimized for size and speed -->
