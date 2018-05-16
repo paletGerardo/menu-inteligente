@@ -13,7 +13,7 @@
     width: 100vw;
     padding-top: 1rem;
     height: 20vh;
-    background-image: url(../img/tira%20cuero.jpg);
+    background-image: url(../img/tiracuero.jpg);
 }
 
 
@@ -186,7 +186,8 @@ button{
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 3000;
     position: absolute;
-
+    top: 0;
+    left: 0;
 }
 
 .card-body img {
@@ -240,16 +241,13 @@ button{
     font-family: Arial;
 }
 
-.est_btn {
-    font-size: 25px !important;
+.lista_elemento{
     width: 45vw !important;
     height: 8vh !important;
-    background-color: #b5b5b5 !important;
-    color: black !important;
-    text-decoration: none !important;
-    margin-right: 15% !important;
-    margin-left: -40%;
-    text-align: left !important;
+    background-color: red;
+    color: black ;
+    text-decoration: none ;
+
 }
 
 .fade-enter-active, .fade-leave-active {
@@ -260,3 +258,4 @@ button{
 {
     opacity: 0;
 }
+

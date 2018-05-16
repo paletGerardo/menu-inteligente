@@ -10,7 +10,6 @@ var app = new Vue({ // creo la variable
     created: function(){
         this.get_productos();
         this.get_categorias();
-        this.mostrarLista();
     },
 
     data: {
@@ -45,6 +44,10 @@ var app = new Vue({ // creo la variable
                 precio: 10,
             });
         },
+
+        listarProductosPorId: function(id){
+
+        }
 
 
     }

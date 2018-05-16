@@ -18,7 +18,7 @@
     <div id="menu">
         <div class="cadaCategoria container">
             <template v-for="cat of listaDeCategorias">
-                <div class="item" @:click="cargarPrdPorId(cat.id)">
+                <div class="item" @:click="listarProductosPorId(cat.id)">
                     <img :src="'img/categorias/' + cat.image + '.png'" alt="">
                 </div>
             </template>
@@ -38,8 +38,8 @@
                                 <p><strong> Graduación Alcohólica: </strong>{{prd.graduacion}}</p>
                                 <p><strong> Precio: </strong>{{prd.precio}}</p>
                             </div>
-                            <div class="botones">
-                                <button class="btn btn-primary btn-lg" @click="agregarALaLista(prd.nombre)">Añadir al
+                            <div class="botones d-flex justify-content-around">
+                                <button class="btn btn-primary btn-lg" v-on:click="agregarALaLista(prd.nombre)">Añadir al
                                     pedido
                                 </button>
                                 <strong> $ {{prd.precio}} </strong>
@@ -57,19 +57,24 @@
         </div>
     </div>
     <div class="loPedido">
-        <button type="button" v-on:click="mostrarLista = !mostrarLista">mostrar</button>
+        <div v-on:click="mostrarLista = !mostrarLista"><img src="img/pedido.png" alt=""></div>
     </div>
     <transition name="fade">
         <div id="lista" v-show="mostrarLista">
-            <div id="listaCuerpo">
-                <template v-for="item in listaDePedidos">
-                    {{item.nombre}}
-                    {{item.precio}}
-                </template>
 
+            <div id="listaCuerpo" >
+
+                <ul class="listaItem d-flex flex-column align-items-center">
+                    <h3>Tú lista de pedidos</h3>
+                <template v-for="item in listaDePedidos">
+
+                    <li class="lista_elemento">{{item.nombre}} precio: {{item.precio}}</li>
+
+                </template>
+                </ul>
             </div>
             <div id="listaFooter">
-                <div id="ocultar"><img src="img/regresar.png"></div>
+                <div id="ocultar" v-on:click="mostrarLista = !mostrarLista"><img src="img/regresar.png"></div>
                 <div id="aceptar"><img src="img/aceptar.png"></div>
 
             </div>

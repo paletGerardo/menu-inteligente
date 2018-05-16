@@ -1,21 +1,3 @@
-function init(){
-    
-    $.post('../ajax/indexAjax.php?op=listarCategorias', function(r){
-        $('.cadaCategoria').html(r);
-    });
-    
-
-}
-
-//funciones de la pagina
-
-function cargarPrdPorId(idCat){
-    $.post('../ajax/indexAjax.php?op=cargarPrdPorId',{id:idCat} ,function(r){
-        $('.slideContainer').html(r);
-    });
-}
-
-
 // Funciones del Slider
 
 var indicador = 0;
@@ -53,6 +35,3 @@ function moveSlider(direccion){
         'margin-left': -(indicador * $('.form_container').width()) + 'px'
     })
 }
-
-
-init();

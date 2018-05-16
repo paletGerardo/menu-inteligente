@@ -9,7 +9,7 @@
     define("DB_USERNAME", "root");
 
     // Contraseña de la BDD
-    define("DB_PASSWORD", "");
+    define("DB_PASSWORD", "120383..");
 
     // defino constante de caracteres
     define("DB_ENCODE", "utf8");
