@@ -18,7 +18,7 @@
     <div id="menu">
         <div class="cadaCategoria container">
             <template v-for="cat of listaDeCategorias">
-                <div class="item" @:click="listarProductosPorId(cat.id)">
+                <div class="item" v-on:click="listarProductosPorId(cat.id)">
                     <img :src="'img/categorias/' + cat.image + '.png'" alt="">
                 </div>
             </template>
@@ -28,10 +28,11 @@
     <div id="cuerpo">
         <div class="form_container">
             <div class="slideContainer" id="productos">
-                <div class="slide" v-for="prd in listadeProductos">
+                <div class="slide" v-for="prd in listadeProductosPorId">
+
                     <div class="cadaSlide">
                         <div class="card">
-                            <div class="cadaSlide-titulo card-header"></div>
+                            <div class="cadaSlide-titulo card-header">{{prd.nombre}}:</div>
                             <div class="cadaSlide-descrip card-body">
                                 <p><strong> Sabor: </strong>{{prd.sabor}}</p>
                                 <p><strong> Descripción: </strong>{{prd.descripcion}}</p>
@@ -49,11 +50,10 @@
                         <div class="cadaSlide-imagen col-6"><img :src="'img/' + prd.image + '.png'" alt=""></div>
                     </div>
                 </div>
+
                 <button class="left"></button>
                 <button class="right"></button>
-
             </div>
-
         </div>
     </div>
     <div class="loPedido">

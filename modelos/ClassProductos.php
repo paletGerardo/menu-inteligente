@@ -14,6 +14,12 @@ Class ClassProductos
         return ejecutarConsulta($sql);
     }
 
+    public function listarProductosPorId($id)
+    {
+        $sql="SELECT * FROM productos where idCategoria = $id";
+        return ejecutarConsulta($sql);
+    }
+
 
 
 }

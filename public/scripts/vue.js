@@ -1,20 +1,17 @@
-var urlProductos = '../ajax/productos/listarProductos.php';
-var urlCategorias = '../ajax/categorias/listarCategorias.php';
-var mostrar = false;
-
 
 var app = new Vue({ // creo la variable
 
     el: "#app", // indico en que elemento del dom va a funcionar
 
     created: function(){
-        this.get_productos();
+        this.listarProductosPorId(-1);
         this.get_categorias();
+
     },
 
     data: {
-        listadeProductos: [], //creo array para recibir los elementos de la request
         listaDeCategorias: [],
+        listadeProductosPorId:[],
         listaDePedidos: [
             {nombre: 'gold', precio: 95},
             {nombre: 'otra', precio: 95},
@@ -25,14 +22,21 @@ var app = new Vue({ // creo la variable
     },
 
     methods: { // creo el metodo encardo de la request
-        get_productos: function () {
-            this.$http.get(urlProductos).then(function (response) {
-                this.listadeProductos = response.data.productos;
-            })
+
+        listarProductosPorId: function (id) {
+            if(id < 0){
+                this.$http.get('../ajax/productos/listarProductos.php').then(function (response) {
+                    this.listadeProductosPorId = response.data.productos;
+                })
+            }else{
+                this.$http.get('../ajax/productos/listarProductosPorId.php?id='+id).then(function (response) {
+                    this.listadeProductosPorId = response.data.productos;
+                })
+            }
         },
 
         get_categorias: function () {
-            this.$http.get(urlCategorias).then(function (response) {
+            this.$http.get('../ajax/categorias/listarCategorias.php').then(function (response) {
                 this.listaDeCategorias = response.data.categorias;
             })
         },
@@ -45,9 +49,10 @@ var app = new Vue({ // creo la variable
             });
         },
 
-        listarProductosPorId: function(id){
+        guardarListaDePedidos: function () {
+            //enviar la lista a la bdd
+        },
 
-        }
 
 
     }
