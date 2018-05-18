@@ -1,7 +1,7 @@
 
-var app = new Vue({ // creo la variable
+var app = new Vue({                 // creo la variable
 
-    el: "#app", // indico en que elemento del dom va a funcionar
+    el: "#app",                     // indico en que elemento del dom va a funcionar
 
     created: function(){
         this.listarProductosPorId(-1);
@@ -10,18 +10,14 @@ var app = new Vue({ // creo la variable
     },
 
     data: {
-        listaDeCategorias: [],
-        listadeProductosPorId:[],
-        listaDePedidos: [
-            {nombre: 'gold', precio: 95},
-            {nombre: 'otra', precio: 95},
-            {nombre: 'otraMas', precio: 95},
-        ],
-        mostrarLista: false,
-        item: '',
+        listaDeCategorias: [],      // carga lista de categorias en el menu
+        listadeProductosPorId:[],   // carga todos los productos al principio y despues los carga por id
+        listaDePedidos: [],         // lista para los pedidos
+        mostrarLista: false,        // flag para no mostrar la lista al principio.
+        precioTotal: 0,                   // suma los precios de los productos y se muetra en la lista.
     },
 
-    methods: { // creo el metodo encardo de la request
+    methods: {
 
         listarProductosPorId: function (id) {
             if(id < 0){
@@ -41,12 +37,16 @@ var app = new Vue({ // creo la variable
             })
         },
 
-        agregarALaLista: function (nombre) {
-            this.item = nombre;
+        agregarALaLista: function (nombre, precio) {
+            this.precioTotal = 0;
+            precio = parseInt(precio);
             this.listaDePedidos.push({
-                nombre: this.item,
-                precio: 10,
+                nombre: nombre,
+                precio: precio,
             });
+            for(i=0 ; i < this.listaDePedidos.length ; i++){
+                this.precioTotal += this.listaDePedidos[i].precio;
+            }
         },
 
         guardarListaDePedidos: function () {

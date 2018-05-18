@@ -1,9 +1,11 @@
 @font-face {
     font-family: Bebas;
+    src: url("../../font/BEBAS.ttf");
 }
 
 @font-face {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico';
+    src: url("../../font/Pacifico-Regular.ttf");
 
 }
 
@@ -216,23 +218,23 @@ button{
 }
 
 #ocultar {
-    width: 120px;
     height: 120px;
     z-index: 2002;
-    position: absolute;
-    float: right;
-    bottom: 0;
-    right: 0;
-    display: block;
+    width: 12.5vw;
+}
+
+.precioTotal{
+    width: 75vw;
+    z-index: 2002;
+    height: 120px;
+
+
 }
 
 #aceptar {
-    width: 120px;
     height: 120px;
     z-index: 2002;
-    position: absolute;
-    float: left;
-    display: block;
+    width: 12.5vw;
 }
 
 #listaFooter {

@@ -38,13 +38,12 @@
                                 <p><strong> Graduación Alcohólica: </strong>{{prd.graduacion}}</p>
                             </div>
                             <div class="botones d-flex justify-content-around">
-                                <button class="btn btn-primary btn-lg" v-on:click="agregarALaLista(prd.nombre)">Agregar al
+                                <button class="btn btn-primary btn-lg" v-on:click="agregarALaLista(prd.nombre, prd.precio)">Agregar al
                                     pedido
                                 </button>
                                 <strong class="estilo_precio"> $ {{prd.precio}} </strong>
                             </div>
                         </div>
-                        <!-- <div class="cadaSlide-imagen col-6"><img v-bind:src="{{prd.image}}" alt=""> </div>-->
                         <div class="cadaSlide-imagen col-6"><img :src="'img/' + prd.image + '.png'" alt=""></div>
                     </div>
                 </div>
@@ -60,7 +59,7 @@
     <transition name="fade">
         <div id="lista" v-show="mostrarLista">
 
-            <div id="listaCuerpo" >
+            <div id="listaCuerpo" class="d-flex flex-column justify-content-center">
 
                 <ul class="listaItem d-flex flex-column align-items-center">
                     <h3 class="titulo">- Tu lista de pedidos -</h3>
@@ -77,11 +76,15 @@
                           <span class="precio col-2">$ {{item.precio}}</span></li>
 
                 </template>
+
                 </ul>
+
+
             </div>
-            <div id="listaFooter">
-                <div id="ocultar" v-on:click="mostrarLista = !mostrarLista"><img src="img/regresar.png"></div>
+            <div id="listaFooter" class="d-flex justify-content-between">
                 <div id="aceptar"><img src="img/aceptar.png"></div>
+                <div class="precioTotal d-flex justify-content-end"  >TOTAL:$ {{precioTotal}}</div>
+                <div id="ocultar" class="d-flex justify-content-end" v-on:click="mostrarLista = !mostrarLista"><img src="img/regresar.png"></div>
 
             </div>
         </div>
