@@ -63,14 +63,14 @@
 
                 <ul class="listaItem d-flex flex-column align-items-center">
                     <h3 class="titulo">- Tu lista de pedidos -</h3>
-                <template v-for="item in listaDePedidos">
+                <template v-for="(item, index) in listaDePedidos" :key(id)>
 
                     <li class="listar_elementos d-flex">
                           <span class="mostrar_descripcion col-6">{{item.nombre}} </span>
-                          <span class="mostrar_cantidad col-1">2</span>
+                          <span class="mostrar_cantidad col-1">{{item.cantidad}}</span>
                           <span class="modificar_cantidad col-3">
-                              <button type="button" class="btn btn-primary">+</button>
-                              <button type="button" class="btn btn-primary">-</button>
+                              <button type="button" class="btn btn-primary" v-on:click="addCantidad(index)">+</button>
+                              <button type="button" class="btn btn-primary" v-on:click="quitarCantidad(index)">-</button>
 
                           </span>
                           <span class="precio col-2">$ {{item.precio}}</span></li>

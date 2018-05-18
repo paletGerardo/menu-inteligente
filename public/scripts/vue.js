@@ -14,7 +14,8 @@ var app = new Vue({                 // creo la variable
         listadeProductosPorId:[],   // carga todos los productos al principio y despues los carga por id
         listaDePedidos: [],         // lista para los pedidos
         mostrarLista: false,        // flag para no mostrar la lista al principio.
-        precioTotal: 0,                   // suma los precios de los productos y se muetra en la lista.
+        precioTotal: 0,             // suma los precios de los productos y se muetra en la lista.
+
     },
 
     methods: {
@@ -43,11 +44,29 @@ var app = new Vue({                 // creo la variable
             this.listaDePedidos.push({
                 nombre: nombre,
                 precio: precio,
+                cantidad: 1,
             });
+
             for(i=0 ; i < this.listaDePedidos.length ; i++){
                 this.precioTotal += this.listaDePedidos[i].precio;
             }
         },
+
+        addCantidad: function(id){
+            this.listaDePedidos[id].cantidad ++,
+                this.precioTotal += this.listaDePedidos[id].precio
+        },
+
+        quitarCantidad: function(id){
+            if(this.listaDePedidos[id].cantidad > 1){
+                this.listaDePedidos[id].cantidad --,
+                    this.precioTotal -= this.listaDePedidos[id].precio
+            }else{
+                this.listaDePedidos[id].cantidad = 1
+            }
+
+        },
+
 
         guardarListaDePedidos: function () {
             //enviar la lista a la bdd
