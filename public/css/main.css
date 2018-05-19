@@ -14,7 +14,6 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    overflow: hidden;
 }
 
 
@@ -25,7 +24,7 @@
 
 #menu {
     width: 100vw;
-    padding-top: .6rem;
+    padding-top: .3rem;
     height: 20vh;
     background-image: url(../img/tiracuero.jpg);
 }
@@ -88,7 +87,6 @@ button{
 
 .cadaCategoria{
     width: 100vw;
-    height: 100vh ;
 
 }
 
@@ -98,21 +96,12 @@ button{
 
 }
 
-
-
-
-
 .cadaSlide-titulo{
     font-size: 2.5rem;
     font-family: 'Pacifico', cursive;
     text-shadow: 3px 1px 0px rgba(0, 0, 0, 0.71);
 
-    
 }
-
-
-
-
 
 
 .cadaSlide-imagen img {
@@ -122,8 +111,7 @@ button{
     top: 5px;
     height: 100%;
     z-index: 2000;
-    overflow: visible;
-    
+
 }
 
 .slide{
@@ -147,7 +135,6 @@ button{
     width: 45%;
     /*background-color: blue !important;*/
     float: left;
-    overflow: visible;
 
 }
 .card{
@@ -226,30 +213,42 @@ button{
     width: 12.5vw;
 }
 
+#ocultar{
+    height: 20vh;
+}
+
 .precioTotal{
     width: 75vw;
     z-index: 2002;
-    height: 120px;
+    height: 20vh;
+    font-family: Bebas;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.91);
 
 
 }
 
 #aceptar {
-    height: 120px;
+    height: 20vh;
     z-index: 2002;
     width: 12.5vw;
+}
+
+#aceptar img{
+    height: 20vh;
 }
 
 #listaFooter {
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.4);
+    height: 20vh;
 }
 
 #listaCuerpo {
     width: 100vw;
-    height: 82vh;
+    height: 80vh;
     background-color: rgba(0, 0, 0, 0.4);
-
 }
 
 .card {
@@ -264,8 +263,6 @@ button{
     padding-top: 5px;
     padding-left: 15px;
     font-size: 1.5rem;
-    overflow: visible;
-
 }
 
 .mostrar_descripcion{
@@ -273,8 +270,6 @@ button{
     height: 8vh !important;
     font-family: Bebas;
     font-size: 1.3rem;
-
-
 }
 
 .mostrar_cantidad{
@@ -285,19 +280,11 @@ button{
     font-size: 2rem;
     padding: 0 25px 0 0;
 
-
-
-
-
 }
 
 .modificar_cantidad{
     height: 8vh !important;
     font-size: 2rem;
-
-
-
-
 }
 
 .precio{
@@ -306,10 +293,6 @@ button{
     font-size: 2rem;
     color: white;
     text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.91);
-
-
-
-
 }
 
 /* Transicion para la presentacion*/
@@ -364,24 +347,9 @@ h3{
 
 }
 
-.precioTotal{
-    font-family: Bebas;
-    font-size: 2rem;
-    color: #fff;
-    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.91);
-}
-
 
 .btn:disabled{
     color: red !important;
-}
-
-.btn{
-    overflow: visible !important;
-}
-
-.btn-primary{
-    overflow: visible;
 }
 
 .imagenPresentacion{
@@ -394,4 +362,9 @@ h3{
     top: 0;
     left: 0;
     z-index: 4000;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
 }
