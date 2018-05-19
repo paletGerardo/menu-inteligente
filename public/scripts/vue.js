@@ -15,7 +15,9 @@ var app = new Vue({                 // creo la variable
         listaDePedidos: [],         // lista para los pedidos
         mostrarLista: false,        // flag para no mostrar la lista al principio.
         precioTotal: 0,             // suma los precios de los productos y se muetra en la lista.
-
+        isActive: false,
+        textoBtn: 'agregar al pedido',
+        mostrarPresentacion: true,
     },
 
     methods: {
@@ -38,9 +40,13 @@ var app = new Vue({                 // creo la variable
             })
         },
 
-        agregarALaLista: function (nombre, precio) {
+        agregarALaLista: function ( nombre, precio) {
+
             this.precioTotal = 0;
             precio = parseInt(precio);
+            this.isActive = true;
+            this.textoBtn = 'agregado a la lista';
+
             this.listaDePedidos.push({
                 nombre: nombre,
                 precio: precio,
@@ -66,7 +72,6 @@ var app = new Vue({                 // creo la variable
             }
 
         },
-
 
         guardarListaDePedidos: function () {
             //enviar la lista a la bdd

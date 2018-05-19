@@ -15,7 +15,7 @@
 
     <!--INICIO MENU CATEGORIAS///////////////////////////////////////////////-->
     <div id="menu">
-        <div class="cadaCategoria container">
+        <div class="cadaCategoria d-flex justify-content-around">
             <template v-for="cat of listaDeCategorias">
                 <div class="item" v-on:click="listarProductosPorId(cat.id)">
                     <img :src="'img/categorias/' + cat.image + '.png'" alt="">
@@ -27,7 +27,7 @@
     <div id="cuerpo">
         <div class="form_container">
             <div class="slideContainer" id="productos">
-                <div class="slide" v-for="prd in listadeProductosPorId">
+                <div class="slide" v-for="(prd, index) in listadeProductosPorId">
 
                     <div class="cadaSlide">
                         <div class="card">
@@ -38,9 +38,7 @@
                                 <p><strong> Graduación Alcohólica: </strong>{{prd.graduacion}}</p>
                             </div>
                             <div class="botones d-flex justify-content-around">
-                                <button class="btn btn-primary btn-lg" v-on:click="agregarALaLista(prd.nombre, prd.precio)">Agregar al
-                                    pedido
-                                </button>
+                                <button class="btn btn-primary btn-lg" v-on:click="agregarALaLista(prd.nombre, prd.precio)" onclick = "this.disabled = true">  {{textoBtn}} </button>
                                 <strong class="estilo_precio"> $ {{prd.precio}} </strong>
                             </div>
                         </div>
@@ -88,6 +86,10 @@
 
             </div>
         </div>
+    </transition>
+
+    <transition name="slide-fade">
+        <div id="mostrarPresentacion" v-on:click="mostrarPresentacion = !mostrarPresentacion" v-show="mostrarPresentacion" ><img class="imagenPresentacion" src="img/PRESENTACION.jpg" alt=""></div>
     </transition>
 </div>
 </body>
