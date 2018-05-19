@@ -53,7 +53,7 @@ var app = new Vue({                 // creo la variable
                 cantidad: 1,
             });
 
-            for(i=0 ; i < this.listaDePedidos.length ; i++){
+            for(var i=0 ; i < this.listaDePedidos.length ; i++){
                 this.precioTotal += this.listaDePedidos[i].precio;
             }
         },

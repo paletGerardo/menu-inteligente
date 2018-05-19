@@ -16,22 +16,26 @@
     list-style: none;
 }
 
-
-#contenedor {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#menu {
+#MENU {
     width: 100vw;
     padding-top: .3rem;
     height: 20vh;
     background-image: url(../img/tiracuero.jpg);
 }
 
+.MENU_categorias{
+    width: 100vw;
+
+}
+
+.MENU_categorias img{
+    width: 100px;
+    height: 100px;
+
+}
 
 
-#cuerpo {
+#CUERPO {
     width: 100vw;
     height: 80vh;
     background-image: url(../img/fondo_cerveceria.jpg);
@@ -81,20 +85,7 @@ button{
   background-repeat: no-repeat;
 }
 
-/*inicio de css categorias*/
 
-
-
-.cadaCategoria{
-    width: 100vw;
-
-}
-
-.cadaCategoria img{
-    width: 100px;
-    height: 100px;
-
-}
 
 .cadaSlide-titulo{
     font-size: 2.5rem;
@@ -364,7 +355,7 @@ h3{
     z-index: 4000;
 }
 
-.item{
+.MENU_item{
     width: 100px;
     height: 100px;
 }

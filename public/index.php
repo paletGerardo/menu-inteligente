@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Menu Digital</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
@@ -14,17 +14,21 @@
 <div id="app">
 
     <!--INICIO MENU CATEGORIAS///////////////////////////////////////////////-->
-    <div id="menu">
-        <div class="cadaCategoria d-flex justify-content-around">
+    <div id="MENU">
+        <div class="MENU_categorias d-flex justify-content-around">
             <template v-for="cat of listaDeCategorias">
-                <div class="item" v-on:click="listarProductosPorId(cat.id)">
+                <div class="MENU_item" v-on:click="listarProductosPorId(cat.id)">
                     <img :src="'img/categorias/' + cat.image + '.png'" alt="">
                 </div>
             </template>
 
         </div>
     </div>
-    <div id="cuerpo">
+    <!--FIN DE MENU CATEGORIAS///////////////////////////////////////////////-->
+    
+    
+    <!--INICIO MENU PRODECTOS///////////////////////////////////////////////-->
+    <div id="CUERPO">
         <div class="form_container">
             <div class="slideContainer" id="productos">
                 <div class="slide" v-for="(prd, index) in listadeProductosPorId">
@@ -51,6 +55,10 @@
             </div>
         </div>
     </div>
+    <!--FIN DE PRODUCTOS ///////////////////////////////////////////////-->
+    
+    
+    <!--INICIO LISTA DE PEDIDOS ///////////////////////////////////////////////-->
     <div class="loPedido">
         <div v-on:click="mostrarLista = !mostrarLista"><img src="img/pedido.png" alt=""></div>
     </div>
@@ -87,10 +95,15 @@
             </div>
         </div>
     </transition>
-
+    <!--FIN LISTA DE PEDIDOS ///////////////////////////////////////////////-->
+    
+    
+    <!--INICIO PRESENTACION ///////////////////////////////////////////////-->
     <transition name="slide-fade">
         <div id="mostrarPresentacion" v-on:click="mostrarPresentacion = !mostrarPresentacion" v-show="mostrarPresentacion" ><img class="imagenPresentacion" src="img/PRESENTACION.jpg" alt=""></div>
     </transition>
+    <!--INICIO DE PRESENTACION ///////////////////////////////////////////////-->
+    
 </div>
 </body>
 <!-- production version, optimized for size and speed -->
