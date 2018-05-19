@@ -83,7 +83,7 @@
             </div>
             <div id="listaFooter" class="d-flex justify-content-between">
                 <div id="aceptar"><img src="img/aceptar.png"></div>
-                <div class="precioTotal d-flex justify-content-end"  >TOTAL:$ {{precioTotal}}</div>
+                <div class="precioTotal d-flex justify-content-end"  >TOTAL: &nbsp $ {{precioTotal}}</div>
                 <div id="ocultar" class="d-flex justify-content-end" v-on:click="mostrarLista = !mostrarLista"><img src="img/regresar.png"></div>
 
             </div>
