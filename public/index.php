@@ -7,7 +7,6 @@
     <title></title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
 
 <body>
@@ -37,13 +36,12 @@
                                 <p><strong> Sabor: </strong>{{prd.sabor}}</p>
                                 <p><strong> Descripción: </strong>{{prd.descripcion}}</p>
                                 <p><strong> Graduación Alcohólica: </strong>{{prd.graduacion}}</p>
-                                <p><strong> Precio: </strong>{{prd.precio}}</p>
                             </div>
                             <div class="botones d-flex justify-content-around">
-                                <button class="btn btn-primary btn-lg" v-on:click="agregarALaLista(prd.nombre)">Añadir al
+                                <button class="btn btn-primary btn-lg" v-on:click="agregarALaLista(prd.nombre)">Agregar al
                                     pedido
                                 </button>
-                                <strong> $ {{prd.precio}} </strong>
+                                <strong class="estilo_precio"> $ {{prd.precio}} </strong>
                             </div>
                         </div>
                         <!-- <div class="cadaSlide-imagen col-6"><img v-bind:src="{{prd.image}}" alt=""> </div>-->
@@ -65,10 +63,18 @@
             <div id="listaCuerpo" >
 
                 <ul class="listaItem d-flex flex-column align-items-center">
-                    <h3>Tú lista de pedidos</h3>
+                    <h3 class="titulo">- Tu lista de pedidos -</h3>
                 <template v-for="item in listaDePedidos">
 
-                    <li class="lista_elemento">{{item.nombre}} precio: {{item.precio}}</li>
+                    <li class="listar_elementos d-flex">
+                          <span class="mostrar_descripcion col-6">{{item.nombre}} </span>
+                          <span class="mostrar_cantidad col-1">2</span>
+                          <span class="modificar_cantidad col-3">
+                              <button type="button" class="btn btn-primary">+</button>
+                              <button type="button" class="btn btn-primary">-</button>
+
+                          </span>
+                          <span class="precio col-2">$ {{item.precio}}</span></li>
 
                 </template>
                 </ul>
