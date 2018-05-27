@@ -18,7 +18,7 @@
         <div class="MENU_categorias d-flex justify-content-around">
             <template v-for="cat of listaDeCategorias">
                 <div class="MENU_item" v-on:click="listarProductosPorId(cat.id)">
-                    <img :src="'img/categorias/' + cat.image + '.png'" alt="">
+                    <img :src="'img/categorias/' + cat.image + '.png'" alt="" v-on:click="moveSlider('centro',true)">
                 </div>
             </template>
 
@@ -100,7 +100,12 @@
     
     <!--INICIO PRESENTACION ///////////////////////////////////////////////-->
     <transition name="slide-fade">
-        <div id="mostrarPresentacion" v-on:click="mostrarPresentacion = !mostrarPresentacion" v-show="mostrarPresentacion" ><img class="imagenPresentacion" src="img/PRESENTACION.jpg" alt=""></div>
+        <div id="mostrarPresentacion" class="" v-on:click="mostrarPresentacion = !mostrarPresentacion" v-show="mostrarPresentacion" >
+        <div class="presentacion_item" v-on:click="listarProductosPorId(1)">cerveza</div>
+        <div class="presentacion_item" v-on:click="listarProductosPorId(2)">tragos</div>
+        <div class="presentacion_item" v-on:click="listarProductosPorId(3)">tragos</div>
+        <div class="presentacion_item" v-on:click="listarProductosPorId(4)">tragos</div>
+        </div>
     </transition>
     <!--INICIO DE PRESENTACION ///////////////////////////////////////////////-->
     

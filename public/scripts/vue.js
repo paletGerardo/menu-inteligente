@@ -24,7 +24,7 @@ var app = new Vue({                 // creo la variable
 
         listarProductosPorId: function (id) {
             if(id < 0){
-                this.$http.get('../ajax/productos/listarProductos.php').then(function (response) {
+                this.$http.get('http://10.5.103.244/ajax/productos/listarProductos.php').then(function (response) {
                     this.listadeProductosPorId = response.data.productos;
                 })
             }else{
