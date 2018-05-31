@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../consorcio/.idea/app_consorcio.iml" filepath="$PROJECT_DIR$/../consorcio/.idea/app_consorcio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../crud/.idea/crud.iml" filepath="$PROJECT_DIR$/../crud/.idea/crud.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/menu-inteligente.iml" filepath="$PROJECT_DIR$/.idea/menu-inteligente.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../my_page/.idea/my_page.iml" filepath="$PROJECT_DIR$/../my_page/.idea/my_page.iml" />
     </modules>
   </component>
 </project>

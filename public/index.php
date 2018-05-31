@@ -107,7 +107,7 @@
         <div class="presentacion_item" v-on:click="listarProductosPorId(4)">tragos</div>
         </div>
     </transition>
-    <!--INICIO DE PRESENTACION ///////////////////////////////////////////////-->
+    <!--INICIO DE PRESENTACION /////////////////////////////////////////////////-->
     
 </div>
 </body>

@@ -2,7 +2,7 @@
 <dataSource name="cerveceriadb@localhost">
   <database-model serializer="dbm" rdbms="MYSQL" format-version="4.8">
     <root id="1">
-      <ServerVersion>10.1.31</ServerVersion>
+      <ServerVersion>0.16.4.1</ServerVersion>
       <DefaultCasing>exact</DefaultCasing>
     </root>
     <schema id="2" parent="1" name="cerveceriadb">
@@ -10,26 +10,20 @@
       <Visible>1</Visible>
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="3" parent="1" name="db">
+    <schema id="3" parent="1" name="consorciodb"/>
+    <schema id="4" parent="1" name="crud"/>
+    <schema id="5" parent="1" name="dbsistemalaravel"/>
+    <schema id="6" parent="1" name="information_schema">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="4" parent="1" name="information_schema">
-      <Collation>utf8_general_ci</Collation>
-    </schema>
-    <schema id="5" parent="1" name="labase">
-      <Collation>utf8_general_ci</Collation>
-    </schema>
-    <schema id="6" parent="1" name="mysql">
+    <schema id="7" parent="1" name="mysql">
       <Collation>latin1_swedish_ci</Collation>
     </schema>
-    <schema id="7" parent="1" name="performance_schema">
+    <schema id="8" parent="1" name="performance_schema">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="8" parent="1" name="phpmyadmin">
+    <schema id="9" parent="1" name="phpmyadmin">
       <Collation>utf8_bin</Collation>
-    </schema>
-    <schema id="9" parent="1" name="test">
-      <Collation>latin1_swedish_ci</Collation>
     </schema>
     <collation id="10" parent="1" name="armscii8_bin">
       <Charset>armscii8</Charset>
@@ -977,20 +971,20 @@
     </table>
     <column id="246" parent="244" name="id">
       <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
+      <DataType>INT(10)|4s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="247" parent="244" name="descripcion">
       <Position>2</Position>
-      <DataType>varchar(120)|0s</DataType>
+      <DataType>VARCHAR(120)|12s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="248" parent="244" name="image">
       <Position>3</Position>
-      <DataType>varchar(100)|0s</DataType>
+      <DataType>VARCHAR(100)|12s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -1001,54 +995,55 @@
     </key>
     <column id="250" parent="245" name="id">
       <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
+      <DataType>INT(10)|4s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="251" parent="245" name="nombre">
       <Position>2</Position>
-      <DataType>varchar(100)|0s</DataType>
+      <DataType>VARCHAR(100)|12s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="252" parent="245" name="sabor">
       <Position>3</Position>
-      <DataType>varchar(100)|0s</DataType>
+      <DataType>VARCHAR(100)|12s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="253" parent="245" name="graduacion">
       <Position>4</Position>
-      <DataType>varchar(100)|0s</DataType>
+      <DataType>VARCHAR(100)|12s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="254" parent="245" name="descripcion">
       <Position>5</Position>
-      <DataType>varchar(250)|0s</DataType>
+      <DataType>VARCHAR(250)|12s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="255" parent="245" name="precio">
       <Position>6</Position>
-      <DataType>double|0s</DataType>
+      <DataType>DOUBLE(22)|8s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="256" parent="245" name="image">
       <Position>7</Position>
-      <DataType>varchar(100)|0s</DataType>
+      <DataType>VARCHAR(100)|12s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="257" parent="245" name="idCategoria">
       <Position>8</Position>
-      <DataType>int(11)|0s</DataType>
+      <DataType>INT(10)|4s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <index id="258" parent="245" name="fk_productos_categorias_idx">
       <ColNames>idCategoria</ColNames>
+      <Unique>1</Unique>
       <Type>btree</Type>
     </index>
     <key id="259" parent="245" name="PRIMARY">
@@ -1056,11 +1051,5 @@
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="260" parent="245" name="fk_productos_categorias">
-      <ColNames>idCategoria</ColNames>
-      <RefSchemaName>cerveceriadb</RefSchemaName>
-      <RefTableName>categorias</RefTableName>
-      <RefColNames>id</RefColNames>
-    </foreign-key>
   </database-model>
 </dataSource>

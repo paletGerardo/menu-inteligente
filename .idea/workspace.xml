@@ -2,243 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60993a2-959f-4525-9cef-bc0c67841216" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/categorias/listarCategorias.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/categorias/listarCategorias.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/productos/listarProductos.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/productos/listarProductos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/productos/listarProductosPorId.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/productos/listarProductosPorId.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/global.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/global.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/BEBAS.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/font/BEBAS.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/Pacifico-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/font/Pacifico-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelos/ClassCategoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/modelos/ClassCategoria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelos/ClassProductos.php" beforeDir="false" afterPath="$PROJECT_DIR$/modelos/ClassProductos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/cosas/cerveza-vertical.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/cosas/cerveza-vertical.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Light.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Light.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Medium.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Medium.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Thin.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Thin.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Thin.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Thin.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/18.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/19.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/19.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/20.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/21.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/22.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/23.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/23.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/24.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/24.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/25.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/25.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/26.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/27.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/27.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/28.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/28.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/29.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/29.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/30.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/30.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/PRESENTACION.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/PRESENTACION.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/aceptar.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/aceptar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/basura/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/basura/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/basura/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/basura/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/basura/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/basura/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/basura/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/basura/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/Bebidas2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/Bebidas2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/Entradas2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/Entradas2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/Platos Principales.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/Platos Principales.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/Postres2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/Postres2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/bebida.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/bebida.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/bebidas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/bebidas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/boton_pedir.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/boton_pedir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/cerveza copia.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/cerveza copia.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/cerveza.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/cerveza.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/ensalada.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/ensalada.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/entradas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/entradas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/hamburguesa.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/hamburguesa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/pastas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/pastas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/picada.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/picada.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/postre.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/postre.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/postres.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/postres.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/principales.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/principales.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/Bebidas2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/Bebidas2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/Entradas2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/Entradas2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/Platos Principales.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/Platos Principales.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/Postres2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/Postres2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/Principales2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/Principales2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/bebida.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/bebida.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/bebidas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/bebidas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/boton_pedir.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/boton_pedir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/cerveza.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/cerveza.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/ensalada.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/ensalada.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/entradas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/entradas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/hamburguesa.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/hamburguesa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/pastas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/pastas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/picada.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/picada.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/postre.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/postre.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/postres.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/postres.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/principales.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/principales.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/sanguches.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/sanguches.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/trago.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/trago.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/sanguches.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/sanguches.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/trago.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/trago.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/cuero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/cuero.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/fondo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/fondo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/fondo_cerveceria.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/fondo_cerveceria.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/fondo_cerveceria2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/fondo_cerveceria2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/fondo_presentacion.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/fondo_presentacion.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menos.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/menos.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/.idea/dataSources/18be871a-5103-40aa-82e5-4734328f3661.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/.idea/menu-inteligente.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/BDD/cerveceriaDB.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/ajax/indexAjax.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/config/conexion.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/config/global.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/modelos/IndexClass.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/cosas/cerveza-vertical.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/fonts/roboto/Roboto-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/fonts/roboto/Roboto-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/fonts/roboto/Roboto-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/fonts/roboto/Roboto-Light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/fonts/roboto/Roboto-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/fonts/roboto/Roboto-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/fonts/roboto/Roboto-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/fonts/roboto/Roboto-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/fonts/roboto/Roboto-Thin.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/fonts/roboto/Roboto-Thin.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/PRESENTACION.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/aceptar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/basura/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/basura/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/basura/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/basura/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/basura/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/basura/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/basura/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/basura/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/Bebidas2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/Entradas2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/Platos Principales.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/Postres2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/Principales2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/bebida.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/bebidas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/boton_pedir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/cerveza copia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/cerveza.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/ensalada.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/entradas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/hamburguesa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/pastas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/picada.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/postre.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/postres.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/principales.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/Bebidas2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/Entradas2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/Platos Principales.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/Postres2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/Principales2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/bebida.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/bebidas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/boton_pedir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/cerveza.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/ensalada.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/entradas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/hamburguesa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/pastas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/picada.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/postre.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/postres.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/principales.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/sanguches.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/resguardo/trago.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/sanguches.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/categorias/trago.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/cerveza.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/fondo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/fondo_cerveceria.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/mas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/menos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/pedido.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/picada.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/regresar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/siguiente.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/spin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/tilde.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/img/tiracuero.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menu-inteligente-master/public/scripts/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mini1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mini1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mini2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mini2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mini3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mini3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mini4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mini4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mini5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mini5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mini6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mini6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mini7.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mini7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mini8.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mini8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/pedido.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/pedido.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/regresar.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/regresar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/siguiente.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/siguiente.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/spin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/spin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/tilde.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/tilde.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/tiracuero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/tiracuero.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/18be871a-5103-40aa-82e5-4734328f3661.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/18be871a-5103-40aa-82e5-4734328f3661.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/menu-inteligente.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/menu-inteligente.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/scripts/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/vue.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -275,13 +45,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="cerveceriadb: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cerveceriadb@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="cerveceriadb: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="productos: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -293,8 +56,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+            <state relative-caret-position="167">
+              <caret line="103" column="71" selection-start-line="103" selection-start-column="51" selection-end-line="103" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -302,17 +65,8 @@
       <file leaf-file-name="vue.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/scripts/vue.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/scripts/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="840">
+              <caret line="62" column="66" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -329,6 +83,7 @@
       <find>listar_ele</find>
       <find>precioT</find>
       <find>estilo</find>
+      <find>imagen</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -345,6 +100,7 @@
         <entry key="$PROJECT_DIR$" value="app_vue2" />
       </map>
     </option>
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -357,10 +113,33 @@
         <option value="$PROJECT_DIR$/ajax/productos/listarProductos.php" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/config/global.php" />
         <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/config/conexion.php" />
+        <option value="$PROJECT_DIR$/../app_consorcio/mvc/application/view/login.html" />
+        <option value="$PROJECT_DIR$/../app_consorcio/mvc/application/view/permiso.php" />
+        <option value="$PROJECT_DIR$/../app_consorcio/mvc/application/view/usuario_view.php" />
+        <option value="$PROJECT_DIR$/../crud/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/../crud/database/seeds/ArticulosSeeder.php" />
+        <option value="$PROJECT_DIR$/../crud/resources/views/articulo/index.blade.php" />
+        <option value="$PROJECT_DIR$/../crud/resources/views/layouts/admin.blade.php" />
+        <option value="$PROJECT_DIR$/../crud/app/Http/Controllers/ArticuloController.php" />
+        <option value="$PROJECT_DIR$/../crud/resources/views/articulo/create.blade.php" />
+        <option value="$PROJECT_DIR$/../crud/routes/web.php" />
+        <option value="$PROJECT_DIR$/../crud/composer.json" />
+        <option value="$PROJECT_DIR$/../crud/config/app.php" />
+        <option value="$PROJECT_DIR$/../my_page/index.html" />
+        <option value="$PROJECT_DIR$/../app_consorcio/mvc/index.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/../consorcio/view/usuario_view.php" />
+        <option value="$PROJECT_DIR$/../consorcio/view/template_view.php" />
+        <option value="$PROJECT_DIR$/../consorcio/model/ClassUsuario.php" />
+        <option value="$PROJECT_DIR$/../consorcio/view/usuario.php" />
+        <option value="$PROJECT_DIR$/../consorcio/view/scripts/usuario.js" />
+        <option value="$PROJECT_DIR$/../consorcio/ajax/usuarioAjax.php" />
+        <option value="$PROJECT_DIR$/../consorcio/modelos/ClassUsuario.php" />
+        <option value="$PROJECT_DIR$/../consorcio/config/conexion.php" />
         <option value="$PROJECT_DIR$/public/scripts/vue.js" />
+        <option value="$PROJECT_DIR$/config/global.php" />
       </list>
     </option>
   </component>
@@ -370,8 +149,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/../crud/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/../crud/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
     <include_path>
@@ -392,13 +176,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="menu-inteligente" type="b2602c69:ProjectViewProjectNode" />
               <item name="menu-inteligente" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="menu-inteligente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="menu-inteligente" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="menu-inteligente" type="b2602c69:ProjectViewProjectNode" />
@@ -415,11 +203,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MariaDB" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../consorcio" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="http://paletgerardo.esy.es" />
+      <recent name="http://31.170.165.184" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -460,6 +259,21 @@
       <workItem from="1526925057753" duration="2062000" />
       <workItem from="1526941003066" duration="669000" />
       <workItem from="1527208894087" duration="599000" />
+      <workItem from="1527438778291" duration="41000" />
+      <workItem from="1527438982793" duration="2622000" />
+      <workItem from="1527537396072" duration="3265000" />
+      <workItem from="1527545095947" duration="10150000" />
+      <workItem from="1527559593798" duration="2516000" />
+      <workItem from="1527608842700" duration="2745000" />
+      <workItem from="1527629007982" duration="823000" />
+      <workItem from="1527630277649" duration="120000" />
+      <workItem from="1527634338713" duration="2370000" />
+      <workItem from="1527645499629" duration="1696000" />
+      <workItem from="1527694926548" duration="3764000" />
+      <workItem from="1527699289932" duration="175000" />
+      <workItem from="1527776124381" duration="616000" />
+      <workItem from="1527779715191" duration="324000" />
+      <workItem from="1527807338875" duration="1118000" />
     </task>
     <task id="LOCAL-00001" summary="cambie contraseña global para la conexion a bdd">
       <created>1526498001040</created>
@@ -531,39 +345,73 @@
       <option name="project" value="LOCAL" />
       <updated>1526751258486</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="agregue disabled, acomode estilos, y demas">
+      <created>1527630317926</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1527630317926</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62529000" />
+    <option name="totallyTimeSpent" value="95476000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="744" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="740" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5718954" visible="true" weight="0.2090909" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3294702" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32954547" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.42810458" side_tool="true" visible="true" weight="0.2090909" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
-      <window_info id="Favorites" order="2" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.59313726" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5575658" visible="true" weight="0.18106061" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.2159091" />
+      <window_info id="Structure" order="1" sideWeight="0.44243422" side_tool="true" weight="0.1659091" />
+      <window_info id="Favorites" order="2" sideWeight="0.43464053" side_tool="true" weight="0.2219697" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32894737" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -575,248 +423,28 @@
     <MESSAGE value="agregue disabled, acomode estilos, y demas" />
     <option name="LAST_COMMIT_MESSAGE" value="agregue disabled, acomode estilos, y demas" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modelos/ClassProductos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3990">
-          <caret line="266" column="22" selection-start-line="266" selection-start-column="22" selection-end-line="266" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BDD/cerveceriaDB.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="33" lean-forward="true" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="62" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vue-tiny-slider/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/public/scripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="530">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/productos/listarProductosPorId.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/productos/listarProductos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modelos/ClassProductos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3435">
-          <caret line="229" selection-start-line="229" selection-end-line="229" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/vue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="85" column="66" selection-start-line="85" selection-start-column="66" selection-end-line="85" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/vue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/productos/listarProductosPorId.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/productos/listarProductos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modelos/ClassProductos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3435">
-          <caret line="229" lean-forward="true" selection-start-line="229" selection-end-line="229" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/productos/listarProductosPorId.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/productos/listarProductos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modelos/ClassProductos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3645">
-          <caret line="243" column="15" selection-start-line="243" selection-start-column="1" selection-end-line="243" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/vue.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/vue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/productos/listarProductosPorId.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modelos/ClassProductos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3645">
-          <caret line="243" column="15" selection-start-line="243" selection-start-column="1" selection-end-line="243" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="76" selection-start-line="66" selection-start-column="76" selection-end-line="66" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/productos/listarProductos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modelos/IndexClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/vue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="76" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3645">
-          <caret line="243" column="15" selection-start-line="243" selection-start-column="1" selection-end-line="243" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/categorias/listarCategorias.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../app_consorcio/mvc/application/view/noacceso.php" />
+    <entry file="file://$PROJECT_DIR$/../app_consorcio/mvc/.htaccess" />
+    <entry file="file://$PROJECT_DIR$/../app_consorcio/mvc/application/model/model_usuario.php" />
+    <entry file="file://$PROJECT_DIR$/../app_consorcio/mvc/application/view/usuario_view.php" />
+    <entry file="file://$PROJECT_DIR$/../app_consorcio/mvc/application/view/scripts/usuario.js" />
+    <entry file="file://$PROJECT_DIR$/../app_consorcio/mvc/application/view/login.html" />
+    <entry file="file://$PROJECT_DIR$/../app_consorcio/mvc/application/view/permiso.php" />
     <entry file="file://$PROJECT_DIR$/modelos/ClassCategoria.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -824,49 +452,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/indexAjax.php" />
-    <entry file="file://$PROJECT_DIR$/config/conexion.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/modelos/IndexClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$PROJECT_DIR$/../crud/database/migrations/2018_05_22_002901_create_articulos_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crud/resources/views/articulo/forms/art.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crud/resources/views/articulo/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crud/resources/views/articulo/store.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crud/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crud/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crud/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3365">
+          <caret line="229" column="52" selection-start-line="229" selection-start-column="52" selection-end-line="229" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crud/app/Http/Controllers/ArticuloController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crud/resources/views/articulo/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crud/resources/views/articulo/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crud/resources/views/layouts/admin.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/productos/listarProductos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modelos/ClassProductos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BDD/cerveceriaDB.sql">
+    <entry file="file://$PROJECT_DIR$/../crud/database/seeds/ArticulosSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+    <entry file="file://$PROJECT_DIR$/../crud/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="195">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crud/app/Articulo.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="http://31.170.165.184">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
+    <entry file="http://paletgerardo.esy.es">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_page/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5100">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app_consorcio/mvc/application/controller/controller_usuario.php" />
+    <entry file="file://$PROJECT_DIR$/../app_consorcio/mvc/application/controller/controller_product.php" />
+    <entry file="file://$PROJECT_DIR$/../app_consorcio/mvc/index.php" />
+    <entry file="file://$PROJECT_DIR$/../app_consorcio/mvc/application/controller/controller_main.php" />
+    <entry file="file://$PROJECT_DIR$/../consorcio/view/template_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ebbabf50-8fc5-4e3a-ba7b-51e2cea600d6/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../consorcio/modelos/model_role.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crud/resources/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5310" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/productos/listarProductosPorId.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../consorcio/view/usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../consorcio/view/scripts/usuario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../consorcio/ajax/usuarioAjax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../consorcio/modelos/ClassUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../consorcio/config/conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../consorcio/view/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../consorcio/view/scripts/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -877,33 +638,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vue-tiny-slider/src/index.js" />
-    <entry file="file://$PROJECT_DIR$/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/ajax/productos/listarProductosPorId.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/18be871a-5103-40aa-82e5-4734328f3661/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+    <entry file="das://18be871a-5103-40aa-82e5-4734328f3661/schema/cerveceriadb/table/productos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        <state relative-caret-position="167">
+          <caret line="103" column="71" selection-start-line="103" selection-start-column="51" selection-end-line="103" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/vue.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        <state relative-caret-position="840">
+          <caret line="62" column="66" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
         </state>
       </provider>
     </entry>

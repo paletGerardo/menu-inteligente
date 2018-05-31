@@ -24,7 +24,7 @@ var app = new Vue({                 // creo la variable
 
         listarProductosPorId: function (id) {
             if(id < 0){
-                this.$http.get('http://10.5.103.244/ajax/productos/listarProductos.php').then(function (response) {
+                this.$http.get('../ajax/productos/listarProductos.php').then(function (response) {
                     this.listadeProductosPorId = response.data.productos;
                 })
             }else{
@@ -54,13 +54,13 @@ var app = new Vue({                 // creo la variable
             });
 
             for(var i=0 ; i < this.listaDePedidos.length ; i++){
-                this.precioTotal += this.listaDePedidos[i].precio;
+                this.precioTotal = this.listaDePedidos[id].precio;
             }
         },
 
         addCantidad: function(id){
             this.listaDePedidos[id].cantidad ++,
-                this.precioTotal += this.listaDePedidos[id].precio
+                this.precioTotal = this.listaDePedidos[id].precio;
         },
 
         quitarCantidad: function(id){

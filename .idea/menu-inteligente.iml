@@ -4,5 +4,10 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="app_consorcio" />
+    <orderEntry type="module" module-name="crud" />
+    <orderEntry type="module" module-name="my_page" />
+    <orderEntry type="module" module-name="app_consorcio" />
+    <orderEntry type="module" module-name="app_consorcio" />
   </component>
 </module>
