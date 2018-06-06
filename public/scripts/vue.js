@@ -16,7 +16,7 @@ var app = new Vue({                 // creo la variable
         mostrarLista: false,        // flag para no mostrar la lista al principio.
         precioTotal: 0,             // suma los precios de los productos y se muetra en la lista.
         isActive: false,
-        textoBtn: 'agregar al pedido',
+        textoBtn: 'agregar',
         mostrarPresentacion: true,
     },
 
@@ -24,7 +24,7 @@ var app = new Vue({                 // creo la variable
 
         listarProductosPorId: function (id) {
             if(id < 0){
-                this.$http.get('../ajax/productos/listarProductos.php').then(function (response) {
+                this.$http.get('../ajax/productos/listarProductosPorId.php?id='+id).then(function (response) {
                     this.listadeProductosPorId = response.data.productos;
                 })
             }else{
@@ -41,7 +41,6 @@ var app = new Vue({                 // creo la variable
         },
 
         agregarALaLista: function ( nombre, precio) {
-
             this.precioTotal = 0;
             precio = parseInt(precio);
             this.isActive = true;
@@ -52,23 +51,25 @@ var app = new Vue({                 // creo la variable
                 precio: precio,
                 cantidad: 1,
             });
-
-            for(var i=0 ; i < this.listaDePedidos.length ; i++){
-                this.precioTotal = this.listaDePedidos[id].precio;
+            for(var i=0 ; i <= this.listaDePedidos.length ; i++){
+                this.precioTotal += (this.listaDePedidos[i].precio * this.listaDePedidos[i].cantidad);
             }
         },
 
         addCantidad: function(id){
-            this.listaDePedidos[id].cantidad ++,
-                this.precioTotal = this.listaDePedidos[id].precio;
+            this.precioTotal=0;
+            this.listaDePedidos[id].cantidad ++;
+            for(var i=0 ; i <= this.listaDePedidos.length ; i++){
+                this.precioTotal += (this.listaDePedidos[i].precio * this.listaDePedidos[i].cantidad);
+            }
         },
 
         quitarCantidad: function(id){
-            if(this.listaDePedidos[id].cantidad > 1){
-                this.listaDePedidos[id].cantidad --,
-                    this.precioTotal -= this.listaDePedidos[id].precio
+            if(this.listaDePedidos[id].cantidad > 1){ //pregunto si la posicion del array es mayor a uno
+                this.listaDePedidos[id].cantidad --, // si es mayor se le puede restar uno
+                    this.precioTotal -= this.listaDePedidos[id].precio //
             }else{
-                this.listaDePedidos[id].cantidad = 1
+                this.listaDePedidos[id].cantidad = 1 //si es menor que uno, lo reinicia
             }
 
         },

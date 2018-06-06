@@ -5,11 +5,11 @@ $(document).on('ready', function(){
     $('.left').on('click', function(e){
         moveSlider('left', false);
     });
-    
+
     $('.right').on('click', function(e){
         moveSlider('right', false);
     });
-    
+
     defineSizes();
 });
 
@@ -26,24 +26,24 @@ function defineSizes(){
 }
 
 function moveSlider(direccion, cambio){
-  if(!cambio){
+    if(!cambio){
         var limite = $('.form_container .slide').length;
-    indicador = (direccion == 'right') ? indicador + 1 : indicador -1;
-    indicador = (indicador >= limite) ? 0 : indicador;
-    indicador = (indicador < 0) ? limite - 1 : indicador;
+        indicador = (direccion == 'right') ? indicador + 1 : indicador -1;
+        indicador = (indicador >= limite) ? 0 : indicador;
+        indicador = (indicador < 0) ? limite - 1 : indicador;
 
-    $('.form_container .slideContainer').animate({
-        'margin-left': -(indicador * $('.form_container').width()) + 'px'
-    })
-  }else{
-      indicador = 1000;
-    var limite = $('.form_container .slide').length;
-    indicador = (direccion == 'right') ? indicador + 1 : indicador -1;
-    indicador = (indicador >= limite) ? 0 : indicador;
-    indicador = (indicador < 0) ? limite - 1 : indicador;
-    
-    $('.form_container .slideContainer').animate({
-        'margin-left': -(indicador * $('.form_container').width()) + 'px'
-    })
-  }
+        $('.form_container .slideContainer').animate({
+            'margin-left': -(indicador * $('.form_container').width()) + 'px'
+        })
+    }else{
+        indicador = 1000;
+        var limite = $('.form_container .slide').length;
+        indicador = (direccion == 'right') ? indicador + 1 : indicador -1;
+        indicador = (indicador >= limite) ? 0 : indicador;
+        indicador = (indicador < 0) ? limite - 1 : indicador;
+
+        $('.form_container .slideContainer').animate({
+            'margin-left': -(indicador * $('.form_container').width()) + 'px'
+        })
+    }
 }

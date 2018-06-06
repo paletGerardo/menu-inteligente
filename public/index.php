@@ -112,7 +112,8 @@
 </div>
 </body>
 <!-- production version, optimized for size and speed -->
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
+<script src="js/vue.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.4"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="scripts/index.js"></script>
