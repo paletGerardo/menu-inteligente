@@ -25,8 +25,8 @@
         </div>
     </div>
     <!--FIN DE MENU CATEGORIAS///////////////////////////////////////////////-->
-    
-    
+
+
     <!--INICIO MENU PRODECTOS///////////////////////////////////////////////-->
     <div id="CUERPO">
         <div class="form_container">
@@ -56,8 +56,8 @@
         </div>
     </div>
     <!--FIN DE PRODUCTOS ///////////////////////////////////////////////-->
-    
-    
+
+
     <!--INICIO LISTA DE PEDIDOS ///////////////////////////////////////////////-->
     <div class="loPedido">
         <div v-on:click="mostrarLista = !mostrarLista"><img src="img/pedido.png" alt=""></div>
@@ -69,19 +69,19 @@
 
                 <ul class="listaItem d-flex flex-column align-items-center">
                     <h3 class="titulo">- Tu lista de pedidos -</h3>
-                <template v-for="(item, index) in listaDePedidos" :key(id)>
+                    <template v-for="(item, index) in listaDePedidos" :key(id)>
 
-                    <li class="listar_elementos d-flex">
-                          <span class="mostrar_descripcion col-6">{{item.nombre}} </span>
-                          <span class="mostrar_cantidad col-1">{{item.cantidad}}</span>
-                          <span class="modificar_cantidad col-3">
+                        <li class="listar_elementos d-flex">
+                            <span class="mostrar_descripcion col-6">{{item.nombre}} </span>
+                            <span class="mostrar_cantidad col-1">{{item.cantidad}}</span>
+                            <span class="modificar_cantidad col-3">
                               <button type="button" class="btn btn-primary" v-on:click="addCantidad(index)">+</button>
                               <button type="button" class="btn btn-primary" v-on:click="quitarCantidad(index)">-</button>
 
                           </span>
-                          <span class="precio col-2">$ {{item.precio}}</span></li>
+                            <span class="precio col-2">$ {{item.precio}}</span></li>
 
-                </template>
+                    </template>
 
                 </ul>
 
@@ -96,24 +96,29 @@
         </div>
     </transition>
     <!--FIN LISTA DE PEDIDOS ///////////////////////////////////////////////-->
-    
-    
+
+
     <!--INICIO PRESENTACION ///////////////////////////////////////////////-->
     <transition name="slide-fade">
         <div id="mostrarPresentacion" class="" v-on:click="mostrarPresentacion = !mostrarPresentacion" v-show="mostrarPresentacion" >
-        <div class="presentacion_item" v-on:click="listarProductosPorId(1)">cerveza</div>
-        <div class="presentacion_item" v-on:click="listarProductosPorId(2)">tragos</div>
-        <div class="presentacion_item" v-on:click="listarProductosPorId(3)">tragos</div>
-        <div class="presentacion_item" v-on:click="listarProductosPorId(4)">tragos</div>
+            <div class="contenedorInicial">
+                <div class="presentacion_item" v-on:click="listarProductosPorId(1)"><img src="img/categorias/cerveza.png" width="150vh"> </div>
+                <div class="presentacion_item" v-on:click="listarProductosPorId(2)"><img src="img/categorias/trago.png" width="150vh"></div>
+                <div class="presentacion_item" v-on:click="listarProductosPorId(3)"><img src="img/categorias/hamburguesa.png" width="150vh"></div>
+                <div class="presentacion_item" v-on:click="listarProductosPorId(4)"><img src="img/categorias/principales.png" width="150vh"></div>
+                <div class="presentacion_item" v-on:click="listarProductosPorId(5)"><img src="img/categorias/postre.png" width="150vh"></div>
+                <div class="presentacion_item" v-on:click="listarProductosPorId(6)"><img src="img/categorias/ensalada.png" width="150vh"></div>
+                <div class="presentacion_item" v-on:click="listarProductosPorId(7)"><img src="img/categorias/sanguches.png" width="150vh"></div>
+                <div class="presentacion_item" v-on:click="listarProductosPorId(8)"><img src="img/categorias/pastas.png" width="150vh"></div>
+            </div>
         </div>
     </transition>
     <!--INICIO DE PRESENTACION /////////////////////////////////////////////////-->
-    
+
 </div>
 </body>
 <!-- production version, optimized for size and speed -->
-<!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
-<script src="js/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.4"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="scripts/index.js"></script>
