@@ -2,140 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60993a2-959f-4525-9cef-bc0c67841216" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/18be871a-5103-40aa-82e5-4734328f3661.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/18be871a-5103-40aa-82e5-4734328f3661.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/menu-inteligente.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/menu-inteligente.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BDD/cerveceriaDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/BDD/cerveceriaDB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/categorias/listarCategorias.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/categorias/listarCategorias.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/productos/listarProductos.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/productos/listarProductos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/productos/listarProductosPorId.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/productos/listarProductosPorId.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/conexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/conexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/global.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/global.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/BEBAS.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/font/BEBAS.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/Pacifico-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/font/Pacifico-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelos/ClassCategoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/modelos/ClassCategoria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelos/ClassProductos.php" beforeDir="false" afterPath="$PROJECT_DIR$/modelos/ClassProductos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelos/IndexClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/modelos/IndexClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/cosas/cerveza-vertical.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/cosas/cerveza-vertical.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Light.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Light.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Medium.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Medium.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Thin.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Thin.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Thin.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/roboto/Roboto-Thin.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/18.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/19.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/19.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/20.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/21.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/22.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/23.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/23.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/24.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/24.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/25.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/25.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/26.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/27.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/27.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/28.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/28.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/29.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/29.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/30.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/30.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/PRESENTACION.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/PRESENTACION.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/aceptar.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/aceptar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/Bebidas2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/Bebidas2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/Entradas2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/Entradas2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/Platos Principales.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/Platos Principales.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/Postres2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/Postres2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/Principales2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/Principales2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/bebida.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/bebida.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/bebidas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/bebidas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/boton_pedir.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/boton_pedir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/cerveza copia.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/cerveza copia.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/cerveza.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/cerveza.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/ensalada.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/ensalada.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/entradas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/entradas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/hamburguesa.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/hamburguesa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/pastas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/pastas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/picada.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/picada.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/postre.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/postre.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/postres.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/postres.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/principales.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/principales.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/Bebidas2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/Bebidas2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/Entradas2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/Entradas2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/Platos Principales.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/Platos Principales.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/Postres2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/Postres2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/Principales2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/Principales2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/bebida.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/bebida.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/bebidas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/bebidas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/boton_pedir.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/boton_pedir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/cerveza.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/cerveza.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/ensalada.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/ensalada.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/entradas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/entradas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/hamburguesa.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/hamburguesa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/pastas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/pastas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/picada.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/picada.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/postre.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/postre.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/postres.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/postres.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/principales.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/principales.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/sanguches.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/sanguches.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/resguardo/trago.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/resguardo/trago.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/sanguches.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/sanguches.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/categorias/trago.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/categorias/trago.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/cerveza.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/cerveza.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/cuero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/cuero.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/fondo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/fondo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/fondo_cerveceria.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/fondo_cerveceria.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/fondo_cerveceria2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/fondo_cerveceria2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/fondo_presentacion.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/fondo_presentacion.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/menos.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/menos.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mini1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mini1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mini2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mini2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mini3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mini3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mini4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mini4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mini5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mini5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mini6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mini6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mini7.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mini7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mini8.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/mini8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/pedido.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/pedido.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/picada.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/picada.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/regresar.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/regresar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/siguiente.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/siguiente.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/spin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/spin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/tilde.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/tilde.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/tiracuero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/tiracuero.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/vue.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -182,8 +49,17 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="117" column="82" selection-start-line="117" selection-start-column="82" selection-end-line="117" selection-end-column="82" />
+            <state relative-caret-position="916">
+              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="384" column="1" selection-start-line="384" selection-start-column="1" selection-end-line="384" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -237,7 +113,6 @@
         <option value="$PROJECT_DIR$/modelos/ClassProductos.php" />
         <option value="$PROJECT_DIR$/ajax/productos/listarProductosPorId.php" />
         <option value="$PROJECT_DIR$/ajax/productos/listarProductos.php" />
-        <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/config/conexion.php" />
@@ -255,7 +130,6 @@
         <option value="$PROJECT_DIR$/../crud/config/app.php" />
         <option value="$PROJECT_DIR$/../my_page/index.html" />
         <option value="$PROJECT_DIR$/../app_consorcio/mvc/index.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/../consorcio/view/usuario_view.php" />
         <option value="$PROJECT_DIR$/../consorcio/view/template_view.php" />
         <option value="$PROJECT_DIR$/../consorcio/model/ClassUsuario.php" />
@@ -266,6 +140,8 @@
         <option value="$PROJECT_DIR$/../consorcio/config/conexion.php" />
         <option value="$PROJECT_DIR$/public/scripts/vue.js" />
         <option value="$PROJECT_DIR$/config/global.php" />
+        <option value="$PROJECT_DIR$/public/css/main.css" />
+        <option value="$PROJECT_DIR$/public/index.php" />
       </list>
     </option>
   </component>
@@ -288,7 +164,7 @@
       <path value="/usr/share/php" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -302,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -324,12 +199,19 @@
               <item name="menu-inteligente" type="b2602c69:ProjectViewProjectNode" />
               <item name="menu-inteligente" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="menu-inteligente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="menu-inteligente" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -402,6 +284,7 @@
       <workItem from="1527807338875" duration="1118000" />
       <workItem from="1528153275345" duration="683000" />
       <workItem from="1528144947378" duration="186000" />
+      <workItem from="1528410478239" duration="1415000" />
     </task>
     <task id="LOCAL-00001" summary="cambie contraseña global para la conexion a bdd">
       <created>1526498001040</created>
@@ -480,17 +363,23 @@
       <option name="project" value="LOCAL" />
       <updated>1527630317926</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="agregue disabled, acomode estilos, y demas">
+      <created>1528411600883</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1528411600883</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96345000" />
+    <option name="totallyTimeSpent" value="97760000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="740" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1366" height="740" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5575658" visible="true" weight="0.18333334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5575658" visible="true" weight="0.18636364" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3294702" />
@@ -504,9 +393,9 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32894737" />
@@ -558,6 +447,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="117" column="82" selection-start-line="117" selection-start-column="82" selection-end-line="117" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1590">
@@ -749,10 +652,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="384" column="1" selection-start-line="384" selection-start-column="1" selection-end-line="384" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="117" column="82" selection-start-line="117" selection-start-column="82" selection-end-line="117" selection-end-column="82" />
+        <state relative-caret-position="916">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
         </state>
       </provider>
     </entry>
