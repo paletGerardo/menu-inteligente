@@ -66,7 +66,7 @@
         <div id="lista" v-show="mostrarLista">
 
             <div id="listaCuerpo" class="d-flex flex-column justify-content-center">
-
+                    <div class="graciasMensaje"><img src="img/gracias_pedido.png"></div>
                 <ul class="listaItem d-flex flex-column align-items-center">
                     <h3 class="titulo">- Tu lista de pedidos -</h3>
                     <template v-for="(item, index) in listaDePedidos" :key(id)>
